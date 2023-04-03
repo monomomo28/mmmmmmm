@@ -4,10 +4,6 @@ export const nav = [
 		slug: '/',
 	},
 	{
-		title: 'イベント',
-		slug: '/blog',
-	},
-	{
 		title: '保護者の方へ',
 		slug: '/company/about',
 	},
