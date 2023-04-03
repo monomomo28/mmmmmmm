@@ -5,18 +5,18 @@ export const footerSocials = [
     icon: "mdi:twitter",
   },
   {
-    name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
+    name: 'LINE',
+    url: 'https://page.line.me/?accountId=013tweol',
     icon: "mdi:youtube",
   },
   {
-    name: 'Github',
-    url: 'https://github.com/littlesticks',
+    name: 'Instagram',
+    url: 'https://instagram.com/career_summit_',
     icon: "mdi:github",
   },
   {
-    name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
+    name: 'Instagram',
+    url: 'https://www.instagram.com/u_18now',
     icon: "ic:baseline-discord",
   },
 ]
