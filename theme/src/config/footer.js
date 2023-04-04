@@ -65,15 +65,15 @@ export const footerLists = [
 			},
 			{
 				title: '公式twitter',
-				url: 'https://twitter.com/u18summit',
+				slug: 'https://twitter.com/u18summit',
 			},
       {
         title: '公式Instagram',
-        url: 'https://instagram.com/career_summit_',
+        slug: 'https://instagram.com/career_summit_',
       },
       {
         title: '公式Tiktok',
-        url: 'https://www.tiktok.com/@career_summit_',
+        slug: 'https://www.tiktok.com/@career_summit_',
       }
 		],
 	},
