@@ -61,7 +61,7 @@ export const footerLists = [
 		items: [
 			{
 				title: '公式LINE',
-				url: 'https://page.line.me/?accountId=013tweol',
+				slug: 'https://page.line.me/?accountId=013tweol',
 			},
 			{
 				title: '公式twitter',
