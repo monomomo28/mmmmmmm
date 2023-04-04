@@ -9,6 +9,6 @@ export const nav = [
 	},
 	{
 		title: 'お問い合わせ',
-		slug: '/company/contact',
+		slug: 'https://deluxe-seahorse-b5ccff.netlify.app/landing-pages/landing-2/',
 	},
 ];
