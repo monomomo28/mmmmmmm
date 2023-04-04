@@ -61,19 +61,19 @@ export const footerLists = [
 		items: [
 			{
 				title: '公式LINE',
-				slug: '/theme/get-started',
+				url: 'https://page.line.me/?accountId=013tweol',
 			},
 			{
 				title: '公式twitter',
-				slug: '/theme/style-guide',
+				url: 'https://twitter.com/u18summit',
 			},
       {
         title: '公式Instagram',
-        slug: '/theme/theme-setup',
+        url: 'https://instagram.com/career_summit_',
       },
       {
         title: '公式Tiktok',
-        slug: '/theme/customizing-odyssey',
+        url: 'https://www.tiktok.com/@career_summit_',
       }
 		],
 	},
