@@ -7,17 +7,17 @@ export const footerSocials = [
   {
     name: 'LINE',
     url: 'https://page.line.me/?accountId=013tweol',
-    icon: "mdi:youtube",
+    icon: "ri:messenger-fill",
   },
   {
     name: 'Instagram',
     url: 'https://instagram.com/career_summit_',
-    icon: "mdi:github",
+    icon: "mdi:instagram",
   },
   {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/u_18now',
-    icon: "ic:baseline-discord",
+    name: 'Tiktok',
+    url: 'https://www.tiktok.com/@career_summit_',
+    icon: "ic:outline-tiktok",
   },
 ]
 
