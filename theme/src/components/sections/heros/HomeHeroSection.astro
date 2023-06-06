@@ -101,16 +101,19 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 		margin-right: 1rem;
 	}
 	.hero-section__image {
-		display: flex;
-	}
-	.hero-section__image img {
-		width: 500%;
-		height: 500%;
-		max-height: 700vh;
-		object-fit: cover;
-		border-radius: var(--theme-shape-radius);
-		align-items: center;
-	}
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section__image img {
+  width: 500%;
+  height: 500%;
+  max-height: 700vh;
+  object-fit: cover;
+  border-radius: var(--theme-shape-radius);
+  margin: auto;
+}
+	
 	@media (max-width: 10000px) {
 		.hero-section__section {
 			grid-template-columns: 1fr;
