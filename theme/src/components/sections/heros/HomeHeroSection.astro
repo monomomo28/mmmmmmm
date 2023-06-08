@@ -1,27 +1,48 @@
----
 import { Icon } from 'astro-icon';
 import { Container, Button } from '@littlesticks/odyssey-theme-components';
 import settings from '../../../config/settings.js';
-import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
----
+import { ThemeSwitcher } from '../../theme-switcher/theme-switcher';
+
+const newsReleases = [
+  {
+    title: 'ニュースリリース1',
+    date: '2023-05-28',
+    content: 'これはニュースリリースの本文です。',
+  },
+  {
+    title: 'ニュースリリース2',
+    date: '2023-05-27',
+    content: 'これはもう一つのニュースリリースの本文です。',
+  },
+  // 追加のニュースリリースをここに追記
+];
 
 <Container>
-	<section class="hero-section__section">
-		<div class="hero-section__container" style="display: flex;">
- 
-  
-
-</div>
-		<div class="hero-section__image">
-  <picture>
-    <img
-      src="/assets/images/home/段落テキスト (2).png"
-      alt="Astro Odyssey"
-      id="home-hero-image"
-      style="width: 2000px; height: auto;"
-    />
-  </picture>
-</div>
+  <section class="hero-section__section">
+    <div class="hero-section__container" style="display: flex;">
+      <!-- ニュースリリースのコンテンツセクション -->
+      <div class="news-releases">
+        {newsReleases.map((release) => (
+          <div class="news-release">
+            <h2>{release.title}</h2>
+            <p>{release.date}</p>
+            <p>{release.content}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="hero-section__image">
+      <picture>
+        <img
+          src="/assets/images/home/段落テキスト (2).png"
+          alt="Astro Odyssey"
+          id="home-hero-image"
+          style="width: 2000px; height: auto;"
+        />
+      </picture>
+    </div>
+  </section>
+</Container>
 
 <style>
   .hero-section__image img {
