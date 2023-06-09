@@ -22,6 +22,7 @@ const newsReleases = [
 <Container>
   <section class="hero-section">
     <div class="hero-section__container" style="display: flex;">
+	    
       <div class="news-releases">
         {newsReleases.map((release, index) => (
           <div class="news-release" key={index}>
@@ -31,8 +32,8 @@ const newsReleases = [
           </div>
         ))}
       </div>
+	    
     </div>
-  </section>
 	
     <div class="hero-section__image">
       <picture>
@@ -40,7 +41,7 @@ const newsReleases = [
           src="/assets/images/home/段落テキスト (2).png"
           alt="Astro Odyssey"
           id="home-hero-image"
-          style="width: 2000px; height: auto"
+          style="width: 2000px; height: auto;"
         />
       </picture>
     </div>
