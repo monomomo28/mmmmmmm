@@ -20,7 +20,6 @@ const newsReleases = [
 <Container>
   <section class="hero-section">
     <div class="hero-section__container">
-      <!-- ニュースリリースのコンテンツセクション -->
       <div class="news-releases">
         {newsReleases.map((release, index) => (
           <div class="news-release" key={index}>
@@ -31,6 +30,8 @@ const newsReleases = [
         ))}
       </div>
     </div>
+  </section>
+	
     <div class="hero-section__image">
       <picture>
         <img
@@ -41,8 +42,6 @@ const newsReleases = [
         />
       </picture>
     </div>
-  </section>
-
 
   <div class="hero-section__image">
     <picture>
